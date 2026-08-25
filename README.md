@@ -8,13 +8,13 @@ SafeRoute is a local-first, frontend-only community safety mapping application. 
 - **Tailwind CSS v4:** It is used for rapid, responsive UI styling without writing custom CSS files. We utilize modern CSS variables and a custom dark mode aesthetic.
 - **Leaflet & React-Leaflet:** We had to choose over Google Maps to provide a completely free, open-source mapping solution without requiring API keys or credit card billing. The map uses standard OpenStreetMap tiles inverted via CSS to create a sleek dark theme.
 - **Lucide React:** It provided clean, scalable SVG icons used throughout the UI (markers, SOS button, close buttons).
-- **Browser APIs:** 
+- **Browser APIs:**
   - `localStorage`: It is used as the pseudo-database to persist hazard pings and reviews across browser reloads.
   - `Geolocation API`: It is used to fetch the user's real-time latitude and longitude.
   - `tel:` URI: It is used by the SOS button to hand off emergency calls directly to the device's native dialer.
 
 ### Important: Dependency Versions
-Since `package.json` is not included in this repository, please ensure you install the following exact versions to run this project:
+Since `package.json` is not included in this repository, please ensure you install the following exact versions:
 - `react`: ^19.2.8
 - `react-dom`: ^19.2.8
 - `vite`: ^8.2.2
