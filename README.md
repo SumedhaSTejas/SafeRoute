@@ -13,6 +13,18 @@ SafeRoute is a local-first, frontend-only community safety mapping application. 
   - `Geolocation API`: It is used to fetch the user's real-time latitude and longitude.
   - `tel:` URI: It is used by the SOS button to hand off emergency calls directly to the device's native dialer.
 
+### Important: Dependency Versions
+Since `package.json` is not included in this repository, please ensure you install the following exact versions to run this project:
+- `react`: ^19.2.8
+- `react-dom`: ^19.2.8
+- `vite`: ^8.2.2
+- `@vitejs/plugin-react`: ^6.1.0
+- `tailwindcss`: ^4.3.3
+- `@tailwindcss/vite`: ^4.3.3
+- `leaflet`: ^1.9.4
+- `react-leaflet`: ^5.0.0
+- `lucide-react`: ^1.34.0
+
 ## Data Models
 
 The application relies on two primary data models stored in `localStorage`:
