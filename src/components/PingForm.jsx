@@ -26,7 +26,7 @@ export default function PingForm({ location, onClose, onSave }) {
 
   const categories = [
     'Accident Prone', 'Dangerous Road', 'Poor Lighting', 
-    'Isolated Area', 'Flooding', 'Road Damage', 'Other'
+    'Isolated Area', 'Wild Animal Sightings', 'Road Damage', 'Other'
   ];
 
   return (
